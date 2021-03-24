@@ -35,3 +35,5 @@ client.on("message", async message =>  {
       .setTimestamp())
     }
 })
+
+client.login(config.token)
